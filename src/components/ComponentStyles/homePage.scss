@@ -1,0 +1,101 @@
+.imgStyle {
+    width: 100%;
+  }
+
+.container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+
+.homeButton{
+    width: 25%;
+    background-color: transparent;
+    border: solid;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.homeButton:hover {
+    background-color: deepskyblue; 
+    color: white;
+    cursor: pointer;
+}
+
+.homeButton:focus {
+    background-color: deepskyblue; 
+    color: white;
+}
+
+.searchButton{
+    width: 40%;
+    background-color: transparent;
+    border: solid;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.searchButton:hover {
+    background-color: deepskyblue; 
+    color: white;
+    cursor: pointer;
+}
+
+.homeTextBox {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    font-size: xx-large;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}

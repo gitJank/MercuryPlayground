@@ -1,0 +1,33 @@
+.navbar {
+    background-color: transparent;
+    padding: 2%;
+    max-width: 100%;
+    text-align: right;
+}
+
+.brand {
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+}
+
+.subBrand {
+    font-size: small;
+}
+
+.footer {
+    position: absolute;
+    bottom:0;
+    max-width: 100%;
+    color: white;
+    background-color: steelblue;
+    border-style: solid; 
+    border-color: #4d4d4d;
+}
+
+.navLink {
+    color:white;
+    font-size: x-large;
+    margin: 15px;
+    text-decoration-line: none;
+}
