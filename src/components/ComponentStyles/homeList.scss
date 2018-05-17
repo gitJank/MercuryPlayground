@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+.cardContent {
+    border-top-style: solid;
+    border-top-color: black;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;

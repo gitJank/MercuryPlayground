@@ -1,8 +1,8 @@
 {"homes":[
-    {"id":12167677,"address":"345 Fake Address Lane","state":"Florida","zipcode":76995,"type":"BUY", "media": "../images/fake.jpeg"},
-    {"id":76238242,"address":"178 Oak Drive","state":"New Jersey","zipcode":72070,"type":"RENT", "media": "../images/oak.jpeg"},
-    {"id":66646586,"address":"987 Breach Front Blvd.","state":"California","zipcode":73284,"type":"BUY", "media": "../images/breach.jpeg"},
-    {"id":21065793,"address":"740 Rage Road","state":"Texas","zipcode":10908,"type":"BUY", "media": "../images/rage.jpeg"},
-    {"id":43807866,"address":"409 Kitchen Cleaner Circle","state":"Florida","zipcode":94795,"type":"RENT", "media": "../images/kitchen.jpeg"},
-    {"id":93749384,"address":"682 Palace Place","state":"Oregon","zipcode":93846,"type":"BUY", "media": "../images/palace.jpeg"}
+    {"id":12167677,"address":"345 Fake Address Lane","state":"Florida","zipcode":76995,"price": "$1,300,000","type":"BUY", "media": "../images/fake.jpeg"},
+    {"id":76238242,"address":"178 Oak Drive","state":"New Jersey","zipcode":72070,"price": "$1900/mo","type":"RENT", "media": "../images/oak.jpeg"},
+    {"id":66646586,"address":"987 Breach Front Blvd.","state":"California","zipcode":73284,"price": "$995,000","type":"BUY", "media": "../images/breach.jpeg"},
+    {"id":21065793,"address":"740 Rage Road","state":"Texas","zipcode":10908,"price": "$2,300,000","type":"BUY", "media": "../images/rage.jpeg"},
+    {"id":43807866,"address":"409 Kitchen Cleaner Circle","state":"Florida","zipcode":94795,"price": "$2350/mo","type":"RENT", "media": "../images/kitchen.jpeg"},
+    {"id":93749384,"address":"682 Palace Place","state":"Oregon","zipcode":93846,"price": "$750,000","type":"BUY", "media": "../images/palace.jpeg"}
 ]}
