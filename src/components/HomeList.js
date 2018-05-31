@@ -7,8 +7,6 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import "./ComponentStyles/homeList.scss";
 
-
-
 class HomeList extends Component {
     constructor() {
         super();
@@ -44,7 +42,7 @@ class HomeList extends Component {
                                         Price: {home.price}
                                     </Typography>
                                 </CardContent>
-                                <CardActions disableActionSpacing="true">
+                                <CardActions disableActionSpacing = {true}>
                                     <Button size="small" color="primary">
                                         Learn More
                                     </Button>

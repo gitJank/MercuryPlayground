@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
+import SellInput from "./SellInput";
+import "./ComponentStyles/displayListPage.scss";
+import "./ComponentStyles/sellPage.scss";
 
 
 
-const SellPage = () => {
-  return (
-    <div>
-      <h1>Sell</h1>
-      <h2>
-        This will be the sell page.
-      </h2>
-    </div>
-  );
-};
+class SellPage extends Component {
+  constructor() {
+    super();
+  }
+
+
+  render() {
+    return (
+      <div className="bodydiv">
+        <div className="titlediv">
+          <div className="title">Sell</div>
+        </div>
+        <SellInput/>
+      </div>
+    );
+  }
+}
 
 export default SellPage;
