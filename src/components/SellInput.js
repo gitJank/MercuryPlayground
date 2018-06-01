@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
-import Input from '@material-ui/core/Input';
-import InputLabel from '@material-ui/core/InputLabel';
-import MenuItem from '@material-ui/core/MenuItem';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
 import StateSelect from './StateSelect';
 import TypeSelect from './TypeSelect';
 import "./ComponentStyles/sellInput.scss";
