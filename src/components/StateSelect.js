@@ -8,7 +8,6 @@ import Select from '@material-ui/core/Select';
 
 const styles = theme => ({
     formControl: {
-        margin: theme.spacing.unit,
         minWidth: 120,
     },
 });
@@ -27,7 +26,7 @@ class StateSelect extends React.Component {
 
         return (
             <FormControl className={classes.formControl}>
-                <InputLabel htmlFor="stateselect">State</InputLabel>
+                <InputLabel htmlFor="stateselect">State:</InputLabel>
                 <Select
                     value={this.state.selectedstate}
                     onChange={this.handleChange}
@@ -35,7 +34,6 @@ class StateSelect extends React.Component {
                         name: 'selectedstate',
                         id: 'stateselect',
                     }}>
-                    <MenuItem value=""><em>None</em></MenuItem>
                     <MenuItem value={1}>AL</MenuItem>
                     <MenuItem value={2}>AK</MenuItem>
                     <MenuItem value={3}>AZ</MenuItem>

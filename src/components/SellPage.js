@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SellInput from "./SellInput";
+import MediaInput from "./MediaInput"
 import "./ComponentStyles/displayListPage.scss";
 import "./ComponentStyles/sellPage.scss";
 
@@ -17,7 +18,10 @@ class SellPage extends Component {
         <div className="titlediv">
           <div className="title">Sell</div>
         </div>
+        <div className="container">
         <SellInput/>
+        <MediaInput/>
+        </div>
       </div>
     );
   }

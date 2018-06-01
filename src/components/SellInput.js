@@ -7,6 +7,7 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import StateSelect from './StateSelect';
+import TypeSelect from './TypeSelect';
 import "./ComponentStyles/sellInput.scss";
 
 
@@ -20,6 +21,7 @@ class SellInput extends Component {
         address: '',
         state: '',
         zipcode: '',
+        type: '',
         multiline: 'Controlled'
     };
 
@@ -43,7 +45,7 @@ class SellInput extends Component {
                     <div className="control">
                         <TextField
                             id="address"
-                            label="Address"
+                            label="Address:"
                             value={this.state.address}
                             onChange={this.handleChange('address')}
                             margin="normal"
@@ -55,11 +57,14 @@ class SellInput extends Component {
                     <div className="control">
                         <TextField
                             id="zipcode"
-                            label="Zip Code"
+                            label="Zip Code:"
                             value={this.state.zipcode}
                             onChange={this.handleChange('zipcode')}
                             margin="normal"
                         />
+                    </div>
+                    <div className="control">
+                        <TypeSelect />
                     </div>
                 </form>
             </div>
