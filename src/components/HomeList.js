@@ -18,11 +18,11 @@ class HomeList extends Component {
 
     componentDidMount() {
         const type = this.props.type;
-        fetch('../api/db.json')
-            .then(results => {
+        fetch('http://localhost:3002/api/homes')
+            .then(results => {      
                 return results.json();
             }).then(data => {
-                let filteredHomes = data.homes.filter((home) => {
+                let filteredHomes = data.filter((home) => {
                     return home.type === type;
                   })
                 let homes = filteredHomes.map((home, index) => {
