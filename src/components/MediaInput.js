@@ -49,10 +49,8 @@ class MediaInput extends Component {
                     <div className="buttonContainer">
                         <label className="custom-file-upload" >
                             <input type="file" onChange={this._handleImageChange} />
-                            Custom Upload
+                            Upload Picture
                         </label>
-                        <span></span>
-                        <button className="custom-file-upload" type="submit" onClick={this._handleSubmit}>Upload Image</button>
                     </div>
                 </form>
             </div>

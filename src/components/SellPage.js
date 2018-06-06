@@ -18,9 +18,13 @@ class SellPage extends Component {
         <div className="titlediv">
           <div className="title">Sell</div>
         </div>
-        <div className="container">
+        <div className="sellcontainer">
         <SellInput/>
         <MediaInput/>
+        </div>
+        <div className="sellfooter">
+          <button className="footerButton">Cancel</button>
+          <button className="footerButton">Save</button>         
         </div>
       </div>
     );

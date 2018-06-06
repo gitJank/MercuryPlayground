@@ -7,15 +7,16 @@
 .cardContent {
     border-top-style: solid;
     border-top-color: black;
+    text-align: center;
 }
 
-.container {
+.homecontainer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-.container > div {
+.homecontainer > div {
     display: flex; 
     flex-basis: calc(50%);  
     flex-direction: column;
@@ -24,4 +25,5 @@
 .media {
     height: 200px;
 }
+
 
