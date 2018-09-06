@@ -1,33 +1,38 @@
+/* Variables */
+$vin-darkWhite: #7B8590;
+$vin-lightGrey: #383F47;
+$vin-grey: #2F343A;
+$vin-darkGrey: #292C33;
+$vin-lightBlack: #1F2227;
+$vin-white: #F3F8FB;
+
 .navbar {
-    background-color: transparent;
-    padding: 1%;
+    background-color: $vin-lightGrey;
+    padding: 15px;
     max-width: 100%;
-    text-align: right;
+    text-align: left;
+    border-bottom: 5px solid $vin-lightBlack;
 }
 
 .brand {
     font-size: xx-large;
     color: white;
     font-weight: bolder;
+    padding-right: 3%;
+    padding-left: 1.5%;
+    margin: 0;
 }
 
-.subBrand {
-    font-size: small;
-}
-
-.footer {
-    position: absolute;
-    bottom:0;
-    max-width: 100%;
-    color: white;
-    background-color: steelblue;
-    border-style: solid; 
-    border-color: #4d4d4d;
+.switch {
+    max-width: 60%;
+    margin: auto;
 }
 
 .navLink {
-    color:white;
-    font-size: x-large;
-    margin: 15px;
+    color:$vin-darkWhite;
+    font-size: large;
+    margin: 0px;
     text-decoration-line: none;
+    padding: 17px;  
 }
+

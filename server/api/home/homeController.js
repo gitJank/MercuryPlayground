@@ -5,7 +5,7 @@ exports.params = function(req, res, next, id){
     Home.findById(id)
         .then(function(home) {
             if(!home){
-                next(new Error('no home with that id'));
+                next(new Error('no home with that id go to fucking lunch dude'));
             } else {
                 req.home = home;
                 next();

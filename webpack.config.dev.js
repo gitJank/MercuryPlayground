@@ -23,7 +23,6 @@ export default {
     filename: 'bundle.js'
   },
   plugins: [
-    new HardSourceWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({     // Create HTML file that includes references to bundled CSS and JS.

@@ -35,6 +35,10 @@ var HomeSchema = new Schema({
         type: String,
         required: true
     },
+    sqft: {
+        type: String,
+        required: true
+    },
     timePosted: {
         type: Date, 
         default: Date.now 
